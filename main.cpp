@@ -86,6 +86,7 @@ int visualizar()
   while(!archivodatos.eof())
   {
     getline(archivodatos,texto);
+    //Imprime el texto
     cout  << texto << endl ;
   }
 
